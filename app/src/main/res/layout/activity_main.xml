@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="#7cbce8">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="60px"
+                android:background="@drawable/icons8_back_50px_2"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="50px"
+            android:textColor="#ffffff"
+            android:text="Back"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="350px"
+            android:layout_marginLeft="300px"
+            android:textSize="50px"
+            android:textColor="#ffffff"
+            android:text= "Profile"/>
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+
+            android:background="@drawable/icons8_settings_50px_2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="#1e90ff"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:background="@drawable/anhprofile" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Profile Name"
+            android:textSize="50px"/>
+    </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+      android:layout_marginTop="100px"
+
+      android:textSize="50px">
+
+    <TextView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="50px"
+        android:textColor="#ffffff"
+        android:text="125 Friends"/>
+    <TextView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:textSize="50px"
+        android:textColor="#ffffff"
+        android:text="250 Fllowers"/>
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1270px"
+        android:orientation="vertical"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="800px"
+        android:textSize="150px"
+
+        >
+        <LinearLayout
+            android:layout_width="1000px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200px"
+            android:layout_marginLeft="20px"
+            android:orientation="vertical"
+            android:textColor="#7cbce8"
+             >
+        <TextView
+
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:text="    Email: mail@email.com"
+            android:textColor="#7cbce8"
+            android:background="@drawable/custom_textview"
+            android:textSize="50px"
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:text="    Phone:+99 999 555 222"
+            android:textColor="#7cbce8"
+            android:background="@drawable/custom_textview"
+            android:textStyle="bold"
+            android:textSize="50px"/>
+        <TextView
+
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:text="    Skype: me007"
+            android:textColor="#7cbce8"
+            android:background="@drawable/custom_textview"
+            android:textStyle="bold"
+            android:textSize="50px"/>
+        <TextView
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:text="    Web:cssauthor"
+            android:textColor="#7cbce8"
+            android:textStyle="bold"
+            android:background="@drawable/custom_textview"
+            android:textSize="50px"
+           />
+            <TextView
+                android:layout_width="1000px"
+                android:layout_height="150px"
+                android:text=" ĐẶNG VĂN LUẬN_2050531200228"
+                android:textColor="#7cbce8"
+                android:textStyle="bold"
+
+                android:textSize="60px"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

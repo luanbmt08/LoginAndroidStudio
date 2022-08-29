@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    >
+
+
+        <LinearLayout
+            android:gravity="center"
+    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+                <ImageView
+                        android:layout_gravity="center"
+                        android:src="@drawable/anhlogin"
+                    android:layout_width="400dp"
+                    android:layout_height="400px"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/custom_edittext">
+                <EditText
+                    android:background="@drawable/custom_edittext"
+                    android:id="@+id/textView2"
+                    android:layout_width="800px"
+                    android:layout_height="200px"
+                    android:textColor="#1e90ff"
+                    android:text="   User Name" />
+
+                <EditText
+                    android:background="@drawable/custom_edittext"
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="800px"
+                    android:layout_height="200px"
+                    android:textColor="#1e90ff"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:text="    *******"/>
+</LinearLayout>
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#1e90ff"
+                    android:id="@+id/button"
+                    android:layout_width="800px"
+                    android:layout_height="150px"
+                    android:text="Login Me" />
+                <TextView
+                    android:layout_marginTop="600px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lost password?"/>
+            <TextView
+                android:layout_width="1000px"
+                android:layout_height="150px"
+                android:text=" ĐẶNG VĂN LUẬN_2050531200228"
+                android:textColor="#7cbce8"
+                android:textStyle="bold"
+
+                android:textSize="60px"
+                />
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
